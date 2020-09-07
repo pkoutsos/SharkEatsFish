@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Shark Eats Fish</string>
+    <string name="shark_eats_fish">Shark Eats Fish</string>
+    <string name="game_over">Game Over</string>
+    <string name="play_again">Play again</string>
+    <string name="score">Score :</string>
+    <string name="the_purpose_of_the_game_is_to_collect_the_most_points_and_to_evolve_your_shark_to_his_final_evolution">The purpose of the game is to collect the most points and to evolve your shark to his final evolution.</string>
+    <string name="_20_points">: 20 points</string>
+    <string name="_10_points">: 10 points</string>
+    <string name="lose_one_heart">: lose one heart</string>
+    <string name="let_s_go">Let\'s go</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+
+</resources>

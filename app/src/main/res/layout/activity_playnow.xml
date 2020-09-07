@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#b3b3ff"
+    android:orientation="vertical"
+    tools:context=".Playnow">
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_gravity="right"
+        android:src="@drawable/info_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start"
+        android:text="@string/let_s_go"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/play"
+        android:layout_marginTop="25dp"
+        android:text="@string/play"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/exit"
+        android:id="@+id/exit"/>
+
+</LinearLayout>

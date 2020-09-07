@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccfffc"
+    tools:context=".Information">
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/arrow_back_24"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_purpose_of_the_game_is_to_collect_the_most_points_and_to_evolve_your_shark_to_his_final_evolution"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:src="@drawable/fish_cartoon"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_20_points"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/image1"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/image1" />
+
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:src="@drawable/small_fish_60"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_10_points"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView1"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/image1"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/image1" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:src="@drawable/rock"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lose_one_heart"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView2"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/image1"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/image1" />
+
+
+
+</RelativeLayout>
